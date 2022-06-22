@@ -16,7 +16,7 @@ The team project of course "Integrated Circuit Design"
   - 输出：`vl,vh,vl2,vh2`
   - 功能：分压电路，将参考电压Vref从-Vref到+Vref分成8份，-vl2=vh2=0.5Vf，-vl=vh=0.25Vf
 - **MDAC**
-  - 输入：`f1,nf1,nf2,f2,k1,k2,s1,s2,x1,x2,y1,y1,z1,z2,vip,vin,vcm,vrp,vrn,lb1,lb2`
+  - 输入：`f1,nf1,nf2,f2,k1,k2,s1,s2,x1,x2,y1,y1,z1,z2,vip,vin,vcm,vrp,vrn,Ib1,Ib2`
   - 输出：`vop1,von1,vop2,von2`
   - 功能：完成采样、D/A、模拟减法（Vin-VDAC=Vres）和放大，并循环
 - **subADC**
@@ -35,3 +35,8 @@ The team project of course "Integrated Circuit Design"
   - 输入：`m1~m8,l1~l8,Lq0,Lq1`
   - 输出：`dlast1~dlast10`
   - 将输入错位相加，得到最终10-bit的输出
+
+主要难点：**MDAC中的OTA设计**
+- 输入：`ip,in,lb,vcm,nf`
+- 输出：`op,on`
+- 信号解释：
