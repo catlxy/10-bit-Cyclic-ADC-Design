@@ -36,7 +36,7 @@ The team project of course "Integrated Circuit Design"
   - 输出：`dlast1~dlast10`
   - 将输入错位相加，得到最终10-bit的输出
 
-主要难点：**MDAC中的OTA设计**
+主要难点：**MDAC中的OTA（跨导放大器）设计**
 - 输入：`ip,in,Ib,vcm,nf`
 - 输出：`op,on`
 - 设计：
