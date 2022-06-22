@@ -19,9 +19,12 @@ The team project of course "Integrated Circuit Design"
 - **Backend ADC**
   - 输入：`vop2,von2,ns1,vcm,vl2,vh2`
   - 输出：`pq0,pq1`
+  - 功能：将余量Vres加到初步粗略A/D转换的信号上，得到最终的数字信号
+- **MOS CAP**
+  - 
 - MDAC
   - 
 
 
-- MOS CAP
+
 - 同步输出电路
