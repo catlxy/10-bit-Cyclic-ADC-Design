@@ -37,6 +37,6 @@ The team project of course "Integrated Circuit Design"
   - 将输入错位相加，得到最终10-bit的输出
 
 主要难点：**MDAC中的OTA设计**
-- 输入：`ip,in,lb,vcm,nf`
+- 输入：`ip,in,Ib,vcm,nf`
 - 输出：`op,on`
-- 信号解释：
+- 设计：
