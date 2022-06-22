@@ -7,7 +7,6 @@ The team project of course "Integrated Circuit Design"
 * 李贺悦，集成电路学院，清华大学
 
 ## 电路级设计
-主要模块：
 - **CLK generator**
   - 输入：`clk`
   - 输出：`f1,f2,k1,k2,s1,s2,nf1,nf2,ns1`
